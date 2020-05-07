@@ -9,7 +9,7 @@ class Stack {
     return item[item.length - 1];
   }
   pop() {
-    //可以先把这个复杂的变量赋给一个常量
+    //可以先把这个复杂的变量赋给一个常量，不然这样难以分辨
     if (_arr.get(this).length === 0) console.error("stack is empty");
     return _arr.get(this).pop();
   }
